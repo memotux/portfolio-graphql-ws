@@ -1,10 +1,10 @@
 {
   "name": "@memotux-portfolio-graphql-ws/h3",
-  "version": "1.0.0",
   "description": "UnJS/h3 HTTP server with WebSockets and GraphQL",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": ""
+    "dev": "node index.js"
   },
   "keywords": [
     "h3",
