@@ -1,0 +1,22 @@
+{
+  "name": "@memotux-portfolio-graphql-ws/h3",
+  "version": "1.0.0",
+  "description": "UnJS/h3 HTTP server with WebSockets and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": ""
+  },
+  "keywords": [
+    "h3",
+    "graphql",
+    "WebSockets"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.0",
+    "graphql": "^16.8.1",
+    "graphql-ws": "^5.14.1",
+    "h3": "^1.8.2"
+  }
+}
