@@ -1,5 +1,5 @@
 {
-  "name": "@memotux-portfolio-graphql-ws/h3",
+  "name": "@memotux/portfolio-graphql-ws-h3",
   "description": "UnJS/h3 HTTP server with WebSockets and GraphQL",
   "main": "index.js",
   "type": "module",

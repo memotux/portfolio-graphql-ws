@@ -1,5 +1,5 @@
 {
-  "name": "graphql-ws",
+  "name": "portfolio-graphql-ws",
   "version": "1.0.0",
   "description": "Portfolio project: GraphQL with WebSockets",
   "scripts": {

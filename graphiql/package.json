@@ -1,5 +1,5 @@
 {
-  "name": "@memotux-portfolio-graphql-ws/graphiql",
+  "name": "@memotux/portfolio-graphql-ws-graphiql",
   "private": true,
   "type": "module",
   "scripts": {
