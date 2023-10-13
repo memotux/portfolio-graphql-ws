@@ -1,0 +1,17 @@
+{
+  "name": "graphql-ws",
+  "version": "1.0.0",
+  "description": "Portfolio project: GraphQL with WebSockets",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "WebSockets",
+    "h3",
+    "nitro",
+    "nuxt"
+  ],
+  "author": "Romeo Mendez Fuentes <romeo@mendezfuentes.net>",
+  "license": "ISC"
+}
