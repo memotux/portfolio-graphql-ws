@@ -4,19 +4,22 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "h3",
     "graphql",
     "WebSockets"
   ],
-  "author": "",
+  "author": "Romeo Mendez Fuentes <romeo@mendezfuentes.net>",
   "license": "ISC",
   "dependencies": {
     "@graphql-tools/schema": "^10.0.0",
     "graphql": "^16.8.1",
     "graphql-ws": "^5.14.1",
     "h3": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
