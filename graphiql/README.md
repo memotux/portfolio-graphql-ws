@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt GraphiQL
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Implements [GraphiQL CDN](https://github.com/graphql/graphiql/tree/main/examples/graphiql-cdn) version, that is React only component.
 
 ## Setup
 
