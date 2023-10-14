@@ -10,7 +10,7 @@ app
   .use(
     '/graphql',
     eventHandler((event) => {
-      handleCors(event, {})
+      handleCors(event, { origin: [/^(http|ws):\/\/localhost:3001/g] })
     })
   )
   .use(
