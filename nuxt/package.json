@@ -14,10 +14,13 @@
     "@nuxt/ui": "^2.9.0",
     "@types/ws": "^8.5.7",
     "nuxt": "^3.7.4",
+    "nuxt-graphql-server": "^3.0.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@graphql-tools/schema": "^10.0.0",
+    "graphql": "^16.8.1",
     "graphql-ws": "^5.14.1",
     "ws": "^8.14.2"
   }
