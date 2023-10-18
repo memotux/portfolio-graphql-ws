@@ -1,6 +1,12 @@
 # GraphQL WebSockets Nitro
 
-Use `graphql-ws` with Nitro.
+Use WebSocket in a Nitro plugin for GraphQL Subscription.
+
+## Features
+
+- UnJS/Nitro framework
+- GraphQL Tools Schema `@graphql-tools/schema`
+- GraphQL WebSocket `graphq-ws`
 
 ## Setup
 

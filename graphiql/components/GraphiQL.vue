@@ -5,7 +5,7 @@ onMounted(() => {
     const fetcher = window.GraphiQL.createFetcher({
       url: 'http://localhost:3000/graphql',
       wsClient: createClient({
-        url: 'ws://localhost:3000/graphql',
+        url: 'ws://localhost:3002/',
       }),
     })
     const root = window.ReactDOM.createRoot(document.getElementById('graphiql'))

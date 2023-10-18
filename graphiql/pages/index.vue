@@ -5,7 +5,7 @@ import { WebSocket } from 'ws'
 const greetings = ref([])
 
 const client = createClient({
-  url: 'ws://localhost:3000/graphql',
+  url: 'ws://localhost:3002/',
   webSocketImpl: WebSocket,
 })
 

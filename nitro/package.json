@@ -10,6 +10,17 @@
   "dependencies": {
     "@graphql-tools/schema": "^10.0.0",
     "graphql": "^16.8.1",
-    "nitropack": "latest"
-  }
+    "graphql-ws": "^5.14.1",
+    "nitropack": "latest",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.7"
+  },
+  "keywords": [
+    "unjs",
+    "nitro",
+    "graphql",
+    "websocket"
+  ]
 }
