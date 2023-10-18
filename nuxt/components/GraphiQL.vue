@@ -3,9 +3,9 @@ import { createClient } from 'graphql-ws'
 onMounted(() => {
   if (window.ReactDOM) {
     const fetcher = window.GraphiQL.createFetcher({
-      url: 'http://localhost:3000/graphql',
+      url: 'http://localhost:3001/api/graphql',
       wsClient: createClient({
-        url: 'ws://localhost:3002/',
+        url: 'ws://localhost:3002/graphql',
       }),
     })
     const root = window.ReactDOM.createRoot(document.getElementById('graphiql'))
