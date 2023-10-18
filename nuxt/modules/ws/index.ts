@@ -27,16 +27,6 @@ export default defineNuxtModule({
   async setup(_, nuxt) {
     installModule('nuxt-graphql-server')
 
-    const modules = nuxt.options._modules.flat()
-
-    modules.forEach((m) => {
-      if (typeof m === 'function') {
-        console.log({ meta: m.getMeta() })
-      }
-    })
-    console.log(nuxt.options._installedModules);
-
-
     const resolversFilePath = await resolvePath(
       '@/server/graphql/resolvers', { alias: nuxt.options.alias })
     const resolvers = await import(resolversFilePath)
