@@ -10,10 +10,12 @@ GraphQL Subscription over WebSocket under [UnJS/h3](https://github.com/unjs/h3) 
 
 ### UnJS/Nitro [See](https://github.com/memotux/portfolio-graphql-ws/tree/master/nitro)
 
-GraphQL Subscripton over WebSocken under [UnJS/Nitro](https://github.com/unjs/nitro/tree/main) framework.
+GraphQL Subscription over WebSocken under [UnJS/Nitro](https://github.com/unjs/nitro/tree/main) framework.
 
 ### NuxtJS
 
-### Extra: GraphiQL [See](https://github.com/memotux/portfolio-graphql-ws/tree/master/graphiql)
+GraphQL Subscription over WebSocket under [NuxtJS](https://github.com/nuxt/nuxt) framework.
+
+#### Extra: GraphiQL [See](https://github.com/memotux/portfolio-graphql-ws/tree/master/nuxt)
 
 GraphiQL GraphQL Playground, CDN version, with NuxtJS Framework.
