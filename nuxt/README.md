@@ -1,6 +1,11 @@
-# Nuxt GraphiQL
+# Nuxt GraphQL WebSocket
 
-Implements [GraphiQL CDN](https://github.com/graphql/graphiql/tree/main/examples/graphiql-cdn) version, that is React only component.
+Implementing GrahpQL with WebSocket for subscription on NuxtJS. Implements [GraphiQL CDN](https://github.com/graphql/graphiql/tree/main/examples/graphiql-cdn) version, that is React only component.
+
+## Features
+
+- GraphQL with WebSocket `graphql-ws`
+- GraphiQL Playground use CDN version.
 
 ## Setup
 
