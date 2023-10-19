@@ -10,7 +10,7 @@ import type { Disposable } from 'graphql-ws'
 
 let dispose: Disposable['dispose']
 
-export const loadSchemaFromFile = (schemaPointers: string, cwd: string) => loadSchema(schemaPointers, {
+const loadSchemaFromFile = (schemaPointers: string, cwd: string) => loadSchema(schemaPointers, {
   cwd,
   loaders: [new GraphQLFileLoader()]
 })
